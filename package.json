@@ -1,6 +1,6 @@
 {
   "name": "ts6-word-counter",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple Word Counter created with TypeScript, Node.js, Inquirer & Chalk.",
   "main": "index.js",
   "type": "module",
@@ -14,9 +14,11 @@
   "author": "Talha Sattar",
   "license": "MIT",
   "dependencies": {
+    "chalk-animation": "^2.0.3",
     "inquirer": "^9.2.20"
   },
   "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
     "@types/inquirer": "^9.0.7"
   }
 }
